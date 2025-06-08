@@ -1,6 +1,9 @@
 ## ###################################################
-## ############     Para desplegar:     ##############                                                
+##    Para desplegar:                                                     
 ## ###################################################
+## :hammer:Funcionalidades del proyecto
+- `Funcionalidad 1`: descripción de la funcionalidad 1- `Funcionalidad 2`: descripción de la funcionalidad 2- `Funcionalidad 2a`: descripción de la funcionalidade 2a relacionada con la funcionalidad 2- `Funcionalidad 3`: descripción de la funcionalidad 3
+
 `1 - `Pegalo en Remix y compilá con Solidity 0.8.20 o superior.-
 `2 - `En el campo _duracionMinutos, poné por ejemplo: 60 (es el tiempo en minutos que dura la subasta)-
 `3 - `En _ofertaInicial, poné: 10000000000000000 (que es 0.01 ETH que se usa como oferta inicial)-
