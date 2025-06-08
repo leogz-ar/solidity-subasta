@@ -5,17 +5,7 @@
 - 4 - En VALUE, poné ese mismo valor: 10000000000000000, y seleccioná la unidad wei.
 - 5 - Deploy
 
-
-
-
-
-
-## ###################################################
-## ###################################################
-![Subasta Img1](img.readme/subasta_front1.png) 
-![Subasta Img2](img.readme/subasta_front2.png)
-## ###################################################
-## ###################################################
+```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -156,3 +146,4 @@ contract SubastaLeo {
         payable(owner).transfer(saldo);
     }
 }
+```
