@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Subasta v1.0b Ethereum / Solidity</title>
+  <script src="ethers.umd.min.js"></script>
+  <script defer src="contract.js"></script>
+  <script defer src="app.js"></script>
+  <style>
+    body { font-family: Tahoma, sans-serif; max-width: 600px; margin: auto; padding: 20px; }
+    input, button { padding: 8px; margin: 4px 0; width: 100%; }
+    .admin { background: #158d96; padding: 10px; border: 1px solid #ccc; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Subasta</h1>
+  <p id="wallet">Conectando a MetaMask...</p>
+
+  <h2>Oferta Máxima</h2>
+  <p id="maxBid">Cargando...</p>
+
+  <h2>Hacer una oferta</h2>
+  <input type="number" id="bidAmount" placeholder=".:|>ETH a ofertar (ej: 0.02)<|:.">
+  <button onclick="ofertar()">Enviar Oferta ->></button>
+
+  <h2>Ofertas registradas</h2>
+  <ul id="offersList"></ul>
+
+  <h2>Ganador</h2>
+  <p id="winner">Esperando finalización...</p>
+
+  <div class="admin" id="adminControls" style="display: none;">
+    <h2>Controles del Owner</h2>
+    <button onclick="finalizar()">Finalizar subasta</button>
+  </div>
+
+  <div>
+    <h2>Retirar Excedente</h2>
+    <button onclick="retirarExcedente()">Retirar excedente de ofertas anteriores</button>
+  </div>
+
+</body>
+</html>
+
