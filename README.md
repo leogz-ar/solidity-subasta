@@ -1,9 +1,9 @@
 ## Para desplegar:
-- [1 - Pegalo en Remix y compilá con Solidity 0.8.20 o superior.]
-- [2 - En el campo _duracionMinutos, poné por ejemplo: 60 (es el tiempo en minutos que dura la subasta)]
-- [3 - En _ofertaInicial, poné: 10000000000000000 (que es 0.01 ETH que se usa como oferta inicial)]
-- [4 - En VALUE, poné ese mismo valor: 10000000000000000, y seleccioná la unidad wei.]
-- [5 - Deploy]
+- 1 - Pegalo en Remix y compilá con Solidity 0.8.20 o superior.
+- 2 - En el campo _duracionMinutos, poné por ejemplo: 60 (es el tiempo en minutos que dura la subasta)
+- 3 - En _ofertaInicial, poné: 10000000000000000 (que es 0.01 ETH que se usa como oferta inicial)
+- 4 - En VALUE, poné ese mismo valor: 10000000000000000, y seleccioná la unidad wei.
+- 5 - Deploy
 
 
 
